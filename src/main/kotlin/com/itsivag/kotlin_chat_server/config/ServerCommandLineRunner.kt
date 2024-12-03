@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component
 
 @Component
 class ServerCommandLineRunner(@Autowired private val socketIoServer: SocketIOServer) : CommandLineRunner {
-    //    val socketIoServer = socketIoConfig.getSocketIoServer()
     override fun run(vararg args: String?) {
         socketIoServer.start()
     }
