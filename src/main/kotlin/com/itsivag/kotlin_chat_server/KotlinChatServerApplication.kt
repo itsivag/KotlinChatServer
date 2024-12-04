@@ -8,6 +8,4 @@ class KotlinChatServerApplication
 
 fun main(args: Array<String>) {
 	runApplication<KotlinChatServerApplication>(*args)
-
-//	IO
 }
