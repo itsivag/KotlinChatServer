@@ -10,5 +10,7 @@ interface SocketModule {
     fun onDisconnected(): DisconnectListener
     fun onMessageReceived(): DataListener<Message>
 
-    fun getConnectedClients(): List<String>
+//    fun getConnectedClients(): List<String>
 }
+
+
